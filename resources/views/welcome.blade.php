@@ -4,15 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nasima Akter - Portfolio</title>
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 </head>
 <body>
-
     <header>
         <nav id="navbar-main" class="navbar navbar-expand-lg navbar-light bg-info fixed-top shadow-sm">
             <div class="container">
@@ -26,32 +22,31 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="">Home</a>
+                            <a class="nav-link" href="#home">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Hobbies</a>
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
     <main>
-        <section class="container section-padding">
+        <section id="home" class="container section-padding">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="content-box">
-                        <h1>Hello,</h1>
+                        <h1 class="hero-title">Hello,</h1>
                         <h1>I'm Nasima Akter.</h1>
                         <p class="lead">I am a Student.</p>
                     </div>
@@ -63,8 +58,7 @@
                 </div>
             </div>
         </section>
-
-        <section class="bg-light section-padding">
+        <section id="about" class="bg-light section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mb-4 mb-md-0">
@@ -77,7 +71,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="content-box h-100 p-4 border rounded shadow-sm">
+                        <div id="hobbies" class="content-box h-100 p-4 border rounded shadow-sm">
                             <h2 class="mb-3">Hobbies</h2>
                             <ul>
                                 <li>Reading Books</li>
@@ -90,8 +84,7 @@
                 </div>
             </div>
         </section>
-
-        <section class="section-padding">
+        <section id="skills" class="section-padding">
             <div class="container">
                 <div class="text-center mb-5">
                     <h2 class="fw-bold">Skills</h2>
@@ -129,8 +122,7 @@
                 </div>
             </div>
         </section>
-
-        <section class="bg-light section-padding">
+        <section id="contact" class="bg-light section-padding">
             <div class="container">
                 <div class="text-center">
                     <h2 class="fw-bold">Contact</h2>
@@ -145,15 +137,12 @@
             </div>
         </section>
     </main>
-
     <footer class="text-center py-4 bg-dark text-white">
         <div class="container">
             <p class="mb-0">Copyright &copy; 2025 - Nasima Akter</p>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    
-   <script src="{{asset('assets/js/font.js')}}"></script>
+    <script src="{{asset('assets/js/script.js')}}"></script>
 </body>
 </html>
